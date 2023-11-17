@@ -176,12 +176,12 @@
     json5 "^2.2.3"
     semver "^6.3.1"
 
-"@babel/generator@^7.22.15":
-  version "7.22.15"
-  resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.22.15.tgz"
-  integrity sha512-Zu9oWARBqeVOW0dZOjXc3JObrzuqothQ3y/n1kUtrjCoCPLkXUwMvOo/F/TCfoHMbWIFlWwpZtkZVb9ga4U2pA==
+"@babel/generator@^7.22.15", "@babel/generator@^7.23.3":
+  version "7.23.3"
+  resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.23.3.tgz"
+  integrity sha512-keeZWAV4LU3tW0qRi19HRpabC/ilM0HRBBzf9/k8FFiG4KVpiv0FIy4hHfLfFQZNhziCTPTmd59zoyv6DNISzg==
   dependencies:
-    "@babel/types" "^7.22.15"
+    "@babel/types" "^7.23.3"
     "@jridgewell/gen-mapping" "^0.3.2"
     "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
@@ -209,13 +209,13 @@
   resolved "https://registry.npmjs.org/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.20.tgz"
   integrity sha512-zfedSIzFhat/gFhWfHtgWvlec0nqB9YEIVrpuwjruLlXfUSnA8cJB0miHKwqDnQ7d32aKo2xt88/xZptwxbfhA==
 
-"@babel/helper-function-name@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.npmjs.org/@babel/helper-function-name/-/helper-function-name-7.22.5.tgz"
-  integrity sha512-wtHSq6jMRE3uF2otvfuD3DIvVhOsSNshQl0Qrd7qC9oQJzHvOL4qQXlQn2916+CXGywIjpGuIkoyZRRxHPiNQQ==
+"@babel/helper-function-name@^7.22.5", "@babel/helper-function-name@^7.23.0":
+  version "7.23.0"
+  resolved "https://registry.npmjs.org/@babel/helper-function-name/-/helper-function-name-7.23.0.tgz"
+  integrity sha512-OErEqsrxjZTJciZ4Oo+eoZqeW9UIiOcuYKRJA4ZAgV9myA+pOXhhmpfNCKjEH/auVfEYVFJ6y1Tc4r0eIApqiw==
   dependencies:
-    "@babel/template" "^7.22.5"
-    "@babel/types" "^7.22.5"
+    "@babel/template" "^7.22.15"
+    "@babel/types" "^7.23.0"
 
 "@babel/helper-hoist-variables@^7.22.5":
   version "7.22.5"
@@ -289,7 +289,7 @@
   resolved "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.22.5.tgz"
   integrity sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==
 
-"@babel/helper-validator-identifier@^7.22.19", "@babel/helper-validator-identifier@^7.22.20":
+"@babel/helper-validator-identifier@^7.22.20":
   version "7.22.20"
   resolved "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.20.tgz"
   integrity sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==
@@ -317,10 +317,10 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.22.15", "@babel/parser@^7.22.16":
-  version "7.22.16"
-  resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.22.16.tgz"
-  integrity sha512-+gPfKv8UWeKKeJTUxe59+OobVcrYHETCsORl61EmSkmgymguYk/X5bp7GuUIXaFsc6y++v8ZxPsLSSuujqDphA==
+"@babel/parser@^7.22.15", "@babel/parser@^7.22.16", "@babel/parser@^7.23.3":
+  version "7.23.3"
+  resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.23.3.tgz"
+  integrity sha512-uVsWNvlVsIninV2prNz/3lHCb+5CJ+e+IUBfbjToAHODtfGYLfCFuY4AU7TskI+dAKk+njsPiBjq1gKTvZOBaw==
 
 "@babel/plugin-transform-classes@^7.9.5":
   version "7.22.15"
@@ -344,7 +344,7 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@babel/template@^7.22.15", "@babel/template@^7.22.5":
+"@babel/template@^7.22.15":
   version "7.22.15"
   resolved "https://registry.npmjs.org/@babel/template/-/template-7.22.15.tgz"
   integrity sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==
@@ -354,28 +354,28 @@
     "@babel/types" "^7.22.15"
 
 "@babel/traverse@^7.22.15", "@babel/traverse@^7.22.20":
-  version "7.22.20"
-  resolved "https://registry.npmjs.org/@babel/traverse/-/traverse-7.22.20.tgz"
-  integrity sha512-eU260mPZbU7mZ0N+X10pxXhQFMGTeLb9eFS0mxehS8HZp9o1uSnFeWQuG1UPrlxgA7QoUzFhOnilHDp0AXCyHw==
+  version "7.23.3"
+  resolved "https://registry.npmjs.org/@babel/traverse/-/traverse-7.23.3.tgz"
+  integrity sha512-+K0yF1/9yR0oHdE0StHuEj3uTPzwwbrLGfNOndVJVV2TqA5+j3oljJUb4nmB954FLGjNem976+B+eDuLIjesiQ==
   dependencies:
     "@babel/code-frame" "^7.22.13"
-    "@babel/generator" "^7.22.15"
+    "@babel/generator" "^7.23.3"
     "@babel/helper-environment-visitor" "^7.22.20"
-    "@babel/helper-function-name" "^7.22.5"
+    "@babel/helper-function-name" "^7.23.0"
     "@babel/helper-hoist-variables" "^7.22.5"
     "@babel/helper-split-export-declaration" "^7.22.6"
-    "@babel/parser" "^7.22.16"
-    "@babel/types" "^7.22.19"
+    "@babel/parser" "^7.23.3"
+    "@babel/types" "^7.23.3"
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.22.15", "@babel/types@^7.22.19", "@babel/types@^7.22.5":
-  version "7.22.19"
-  resolved "https://registry.npmjs.org/@babel/types/-/types-7.22.19.tgz"
-  integrity sha512-P7LAw/LbojPzkgp5oznjE6tQEIWbp4PkkfrZDINTro9zgBRtI324/EYsiSI7lhPbpIQ+DCeR2NNmMWANGGfZsg==
+"@babel/types@^7.22.15", "@babel/types@^7.22.19", "@babel/types@^7.22.5", "@babel/types@^7.23.0", "@babel/types@^7.23.3":
+  version "7.23.3"
+  resolved "https://registry.npmjs.org/@babel/types/-/types-7.23.3.tgz"
+  integrity sha512-OZnvoH2l8PK5eUvEcUyCt/sXgr/h+UWpVuBbOljwcrAgUl6lpchoQ++PHGyQy1AtYnVA6CEq3y5xeEI10brpXw==
   dependencies:
     "@babel/helper-string-parser" "^7.22.5"
-    "@babel/helper-validator-identifier" "^7.22.19"
+    "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
 "@colors/colors@1.5.0":
@@ -438,6 +438,39 @@
     js-yaml "^4.1.0"
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
+
+"@graphql-tools/merge@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.npmjs.org/@graphql-tools/merge/-/merge-9.0.0.tgz"
+  integrity sha512-J7/xqjkGTTwOJmaJQJ2C+VDBDOWJL3lKrHJN4yMaRLAJH3PosB7GiPRaSDZdErs0+F77sH2MKs2haMMkywzx7Q==
+  dependencies:
+    "@graphql-tools/utils" "^10.0.0"
+    tslib "^2.4.0"
+
+"@graphql-tools/schema@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.npmjs.org/@graphql-tools/schema/-/schema-10.0.0.tgz"
+  integrity sha512-kf3qOXMFcMs2f/S8Y3A8fm/2w+GaHAkfr3Gnhh2LOug/JgpY/ywgFVxO3jOeSpSEdoYcDKLcXVjMigNbY4AdQg==
+  dependencies:
+    "@graphql-tools/merge" "^9.0.0"
+    "@graphql-tools/utils" "^10.0.0"
+    tslib "^2.4.0"
+    value-or-promise "^1.0.12"
+
+"@graphql-tools/utils@^10.0.0":
+  version "10.0.8"
+  resolved "https://registry.npmjs.org/@graphql-tools/utils/-/utils-10.0.8.tgz"
+  integrity sha512-yjyA8ycSa1WRlJqyX/aLqXeE5DvF/H02+zXMUFnCzIDrj0UvLMUrxhmVFnMK0Q2n3bh4uuTeY3621m5za9ovXw==
+  dependencies:
+    "@graphql-typed-document-node/core" "^3.1.1"
+    cross-inspect "1.0.0"
+    dset "^3.1.2"
+    tslib "^2.4.0"
+
+"@graphql-typed-document-node/core@^3.1.1":
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/@graphql-typed-document-node/core/-/core-3.2.0.tgz"
+  integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
 
 "@headlessui/react@^1.6.1":
   version "1.7.17"
@@ -532,6 +565,18 @@
     "@mikro-orm/postgresql" "5.7.12"
     awilix "^8.0.0"
 
+"@medusajs/link-modules@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/@medusajs/link-modules/-/link-modules-0.2.3.tgz"
+  integrity sha512-zebvSoLia0W6NbgMrxwql4Ghudx+8Uc2ESNfX+bf56efJz7Uk+NDXhbKWQXSK/oHtxPXuJM0vbGDtvWOa0MK5A==
+  dependencies:
+    "@medusajs/modules-sdk" "^1.12.3"
+    "@medusajs/types" "^1.11.6"
+    "@medusajs/utils" "^1.10.5"
+    "@mikro-orm/core" "5.7.12"
+    "@mikro-orm/postgresql" "5.7.12"
+    awilix "^8.0.0"
+
 "@medusajs/medusa-cli@^1.3.21":
   version "1.3.21"
   resolved "https://registry.npmjs.org/@medusajs/medusa-cli/-/medusa-cli-1.3.21.tgz"
@@ -567,9 +612,9 @@
     yargs "^15.3.1"
 
 "@medusajs/medusa-js@*", "@medusajs/medusa-js@^6.0.3":
-  version "6.0.4"
-  resolved "https://registry.npmjs.org/@medusajs/medusa-js/-/medusa-js-6.0.4.tgz"
-  integrity sha512-zJMTbILTeCogfgvJCB1E5RyDAC90m6wgw0+t7T3BfVo4A4iqx3PlfVT0np9SSOQXSljYu05qO6+BSYJULHgPUg==
+  version "6.1.4"
+  resolved "https://registry.npmjs.org/@medusajs/medusa-js/-/medusa-js-6.1.4.tgz"
+  integrity sha512-goZ9EdrHh/PgeLTVDc3lBQnWzhWVGEQHE6807y/u3b1yPQMAetKWaQFK16ZVuEAhDvDNGkp5uSp01KuutbO1pQ==
   dependencies:
     axios "^0.24.0"
     cross-env "^5.2.1"
@@ -577,16 +622,17 @@
     retry-axios "^2.6.0"
     uuid "^9.0.0"
 
-"@medusajs/medusa@^1.12.0", "@medusajs/medusa@^1.12.1":
-  version "1.16.0"
-  resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-1.16.0.tgz"
-  integrity sha512-9ICO3cMbLkPyxzsLqs9GTkjGO2dVmXN6RZlBYG7+pQ3WhC3Jjj+W/G+ICvq+lMa30NpJ019MSBy6H9FGH999fA==
+"@medusajs/medusa@^1.12.1", "@medusajs/medusa@^1.17.2":
+  version "1.17.4"
+  resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-1.17.4.tgz"
+  integrity sha512-4IjgliiPF0JMDnBEsR/TlY3wdRUgIDXqIi9ZYzMVs3kHnUraR6h5FNhs/9jeVP95FwqWDS1spDIBpDqWu93EzA==
   dependencies:
+    "@medusajs/link-modules" "^0.2.3"
     "@medusajs/medusa-cli" "^1.3.21"
-    "@medusajs/modules-sdk" "^1.11.0"
-    "@medusajs/orchestration" "^0.4.0"
-    "@medusajs/utils" "^1.10.1"
-    "@medusajs/workflows" "^0.2.2"
+    "@medusajs/modules-sdk" "^1.12.3"
+    "@medusajs/orchestration" "^0.4.4"
+    "@medusajs/utils" "^1.10.5"
+    "@medusajs/workflows" "^0.2.5"
     awilix "^8.0.0"
     body-parser "^1.19.0"
     boxen "^5.0.1"
@@ -618,7 +664,7 @@
     node-schedule "^2.1.1"
     papaparse "5.3.2"
     passport "^0.6.0"
-    passport-http-bearer "^1.0.1"
+    passport-custom "^1.1.1"
     passport-jwt "^4.0.1"
     passport-local "^1.0.0"
     pg "^8.11.2"
@@ -633,26 +679,28 @@
     uuid "^9.0.0"
     winston "^3.8.2"
 
-"@medusajs/modules-sdk@^1.11.0":
-  version "1.11.1"
-  resolved "https://registry.npmjs.org/@medusajs/modules-sdk/-/modules-sdk-1.11.1.tgz"
-  integrity sha512-1hZFpzTCw1yl7keQ1AjRlPYYSRz7m8HeyJZRUrtVqL4/TQHIC6pkHFZYWnkKzHlYAl2jIwJJlccxuz0MBMU67A==
+"@medusajs/modules-sdk@^1.11.0", "@medusajs/modules-sdk@^1.12.3":
+  version "1.12.3"
+  resolved "https://registry.npmjs.org/@medusajs/modules-sdk/-/modules-sdk-1.12.3.tgz"
+  integrity sha512-r95PKgf+ndRXNCFQtunTb1PBwCuP3AjlS3WHktSprSbsvXIBFiLV9v1WFmLp/yC8W/+z/rMMVA3nm5DMLk30Rw==
   dependencies:
-    "@medusajs/orchestration" "^0.4.0"
-    "@medusajs/types" "^1.11.1"
-    "@medusajs/utils" "^1.10.1"
+    "@graphql-tools/merge" "^9.0.0"
+    "@graphql-tools/schema" "^10.0.0"
+    "@medusajs/orchestration" "^0.4.4"
+    "@medusajs/types" "^1.11.6"
+    "@medusajs/utils" "^1.10.5"
     awilix "^8.0.0"
     knex "2.4.2"
     pg "^8.11.2"
     resolve-cwd "^3.0.0"
 
-"@medusajs/orchestration@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/@medusajs/orchestration/-/orchestration-0.4.0.tgz"
-  integrity sha512-wOV8uppaQIXFlqasZaTQNoDEcw1u/av3ZF907i4zYdx7u8ksxAZiPuUXoTwrW9hCsyfadY8Ur9+07j1tgcR7Cw==
+"@medusajs/orchestration@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.npmjs.org/@medusajs/orchestration/-/orchestration-0.4.4.tgz"
+  integrity sha512-JRS2g4DX8POn8b5W6vTBE3yvQuDF5VPOMS1e4Owhg9hjJ6p+mIuPju7RheKj6dZ2KtQjPT5sCSHpscVUca/z1w==
   dependencies:
-    "@medusajs/types" "^1.11.1"
-    "@medusajs/utils" "^1.10.1"
+    "@medusajs/types" "^1.11.6"
+    "@medusajs/utils" "^1.10.5"
     awilix "^8.0.0"
     graphql "^16.6.0"
 
@@ -687,17 +735,17 @@
     knex "2.4.2"
     lodash "^4.17.21"
 
-"@medusajs/types@^1.11.1":
-  version "1.11.1"
-  resolved "https://registry.npmjs.org/@medusajs/types/-/types-1.11.1.tgz"
-  integrity sha512-aSkbd/ZEY3ZV1sgn9YMd0ORrgefLu3qP7RO4StQfDUoeK1heWyHGWmxp2lG3hSkatgxpET7elDOvABGObcUDQQ==
+"@medusajs/types@^1.11.1", "@medusajs/types@^1.11.6":
+  version "1.11.6"
+  resolved "https://registry.npmjs.org/@medusajs/types/-/types-1.11.6.tgz"
+  integrity sha512-vTKCyYbflniuevg8HSgLSES+EBtdit9LF4iBYRyQBn+2Ra6ddfcDVn6ORA5qXYE3fauGe3c6te5atPLhS0fGOQ==
 
-"@medusajs/utils@^1.10.0", "@medusajs/utils@^1.10.1":
-  version "1.10.1"
-  resolved "https://registry.npmjs.org/@medusajs/utils/-/utils-1.10.1.tgz"
-  integrity sha512-EMxJ3QsY7y0hDs2fNgvsE6iUnu/hgZHFNY637+fUkKZ/b1o+V5egAB3KJO2gqxZneM5dddwyhc+XRbT8Os1CTQ==
+"@medusajs/utils@^1.10.0", "@medusajs/utils@^1.10.1", "@medusajs/utils@^1.10.5":
+  version "1.10.5"
+  resolved "https://registry.npmjs.org/@medusajs/utils/-/utils-1.10.5.tgz"
+  integrity sha512-2Fz8mVg2yemsOmcS04OhXLmC18fK7bibu/y+EW84voCEYot4T+2TXQx6ZcrRjuuTWj7aSTtVVN1HN5yFvTrH3A==
   dependencies:
-    "@medusajs/types" "^1.11.1"
+    "@medusajs/types" "^1.11.6"
     "@mikro-orm/core" "5.7.12"
     "@mikro-orm/migrations" "5.7.12"
     "@mikro-orm/postgresql" "5.7.12"
@@ -705,14 +753,14 @@
     knex "2.4.2"
     ulid "^2.3.0"
 
-"@medusajs/workflows@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/@medusajs/workflows/-/workflows-0.2.2.tgz"
-  integrity sha512-N+wg+la27jte7krvOYFazuN5P4hd2YlthXNqoE57QiZgB5r7RH0LfXkNd/nf8awa+VS0jnhJpInHIFdWTfw2JQ==
+"@medusajs/workflows@^0.2.5":
+  version "0.2.5"
+  resolved "https://registry.npmjs.org/@medusajs/workflows/-/workflows-0.2.5.tgz"
+  integrity sha512-arLxM/Qru/pqFb/4UPwMwV2qack+kwXP8yNwUn+NHLhwZ41EWTl8wXSEJql/KuEYKCWxYmfMXQSBRRjrc+MREg==
   dependencies:
-    "@medusajs/modules-sdk" "^1.11.0"
-    "@medusajs/orchestration" "^0.4.0"
-    "@medusajs/utils" "^1.10.1"
+    "@medusajs/modules-sdk" "^1.12.3"
+    "@medusajs/orchestration" "^0.4.4"
+    "@medusajs/utils" "^1.10.5"
     awilix "^8.0.1"
     ulid "^2.3.0"
 
@@ -2478,12 +2526,26 @@ cross-env@^5.2.1:
   dependencies:
     cross-spawn "^6.0.5"
 
+cross-env@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz"
+  integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
+  dependencies:
+    cross-spawn "^7.0.1"
+
 cross-fetch@^3.1.5:
   version "3.1.8"
   resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.8.tgz"
   integrity sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==
   dependencies:
     node-fetch "^2.6.12"
+
+cross-inspect@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/cross-inspect/-/cross-inspect-1.0.0.tgz"
+  integrity sha512-4PFfn4b5ZN6FMNGSZlyb7wUhuN8wvj8t/VQHZdM4JsDcruGJ8L2kf9zao98QIrBPFCpdk27qst/AGTl7pL3ypQ==
+  dependencies:
+    tslib "^2.4.0"
 
 cross-spawn@^6.0.5:
   version "6.0.5"
@@ -2496,7 +2558,7 @@ cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
+cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
   integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
@@ -2764,6 +2826,11 @@ dotenv@16.1.4:
   version "16.1.4"
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.1.4.tgz"
   integrity sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==
+
+dset@^3.1.2:
+  version "3.1.3"
+  resolved "https://registry.npmjs.org/dset/-/dset-3.1.3.tgz"
+  integrity sha512-20TuZZHCEZ2O71q9/+8BwKwZ0QtD9D8ObhrihJPr+vLLYlSuAU3/zL4cSlgbfeoGHTjCSJBa7NGcrF9/Bx/WJQ==
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -3831,7 +3898,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql@^16.6.0:
+"graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", graphql@^16.6.0:
   version "16.8.1"
   resolved "https://registry.npmjs.org/graphql/-/graphql-16.8.1.tgz"
   integrity sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==
@@ -4843,9 +4910,9 @@ medusa-interfaces@^1.3.7:
   integrity sha512-vU1PjepGeglUmEqoBY72gx5Pfj5Uv3VCO3oqYpj6hSz55jhy4xnUNhf4Ttw1mhqGmwtyi9UkHx+aTuCcYx24Ww==
 
 medusa-react@^9.0.0:
-  version "9.0.5"
-  resolved "https://registry.npmjs.org/medusa-react/-/medusa-react-9.0.5.tgz"
-  integrity sha512-O5oJEfTQn7ysky1Zoxctm4nc7xVx8hAHqCzKI6g6KaJpLTaBSKq66pKQvRwMEkU3ao9Um+/CP0QVwwNWyh/skw==
+  version "9.0.11"
+  resolved "https://registry.npmjs.org/medusa-react/-/medusa-react-9.0.11.tgz"
+  integrity sha512-RV76M5AmqhCMt25bAsIVl9UKawvPKDUzxF2CwFZw2w5ULwFG2rxyzmVMktKuGxKhwUfzUWMrYqmG/0fMfgtWyQ==
   dependencies:
     "@medusajs/medusa-js" "*"
 
@@ -5430,10 +5497,10 @@ pascal-case@^3.1.2:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-passport-http-bearer@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz"
-  integrity sha512-SELQM+dOTuMigr9yu8Wo4Fm3ciFfkMq5h/ZQ8ffi4ELgZrX1xh9PlglqZdcUZ1upzJD/whVyt+YWF62s3U6Ipw==
+passport-custom@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/passport-custom/-/passport-custom-1.1.1.tgz"
+  integrity sha512-/2m7jUGxmCYvoqenLB9UrmkCgPt64h8ZtV+UtuQklZ/Tn1NpKBeOorCYkB/8lMRoiZ5hUrCoMmDtxCS/d38mlg==
   dependencies:
     passport-strategy "1.x.x"
 
@@ -7224,6 +7291,11 @@ validator@^13.7.0:
   version "13.11.0"
   resolved "https://registry.npmjs.org/validator/-/validator-13.11.0.tgz"
   integrity sha512-Ii+sehpSfZy+At5nPdnyMhx78fEoPDkR2XW/zimHEL3MyGJQOCQ7WeP20jPYRz7ZCpcKLB21NxuXHF3bxjStBQ==
+
+value-or-promise@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.npmjs.org/value-or-promise/-/value-or-promise-1.0.12.tgz"
+  integrity sha512-Z6Uz+TYwEqE7ZN50gwn+1LCVo9ZVrpxRPOhOLnncYkY1ZzOYtrX8Fwf/rFktZ8R5mJms6EZf5TqNOMeZmnPq9Q==
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
